@@ -1,0 +1,6 @@
+module Pods_KeyChainUserPresence {
+  umbrella header "Pods-KeyChainUserPresence-umbrella.h"
+
+  export *
+  module * { export * }
+}

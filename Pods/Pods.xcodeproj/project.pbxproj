@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06E5B577D703724BFE19F985BDB3EA7F /* KeychainSwiftAccessOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAC07B46594C167986B13F954F38D9D /* KeychainSwiftAccessOptions.swift */; };
+		40563B24A09D6EFECB111DD70444D4BB /* KeychainSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4342A06AF948707111CB03D399C138CC /* KeychainSwift-dummy.m */; };
+		655244C9C861AB7B9AB24B9DBBC0ECA2 /* Pods-KeyChainUserPresence-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 842CF55CD9A24F1A1046C197A7E60875 /* Pods-KeyChainUserPresence-dummy.m */; };
+		67320BBFA13531C26910011C0E87A01F /* TegKeychainConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25AFB94937BBD2B85CE3D19C55DAE9C /* TegKeychainConstants.swift */; };
+		6FFC5B3DB755387D0D871DFEF9F78E83 /* Pods-KeyChainUserPresence-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2FC8C611CFDBC525F3B061331EAB622 /* Pods-KeyChainUserPresence-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8E4CFEFBF7066B4047946C16F914ACF6 /* KeychainSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD3A951869ED076297861E61D330DBC /* KeychainSwift.swift */; };
+		FD3E414B1438439F4E530BC60701C071 /* KeychainSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 526D6BF9418B09F29980D0E160393456 /* KeychainSwift-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A173FEB5ED0F44BA8A3A2E2AB34BAC25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29D71D6356EEC99D7630D2241D3E8A82;
+			remoteInfo = KeychainSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1010C4CD05E057D8C5A9D28062E85106 /* libPods-KeyChainUserPresence.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-KeyChainUserPresence.a"; path = "libPods-KeyChainUserPresence.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3BAC07B46594C167986B13F954F38D9D /* KeychainSwiftAccessOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainSwiftAccessOptions.swift; path = Sources/KeychainSwiftAccessOptions.swift; sourceTree = "<group>"; };
+		40FF95DE14EEA4AE2E2174B02CC3A234 /* KeychainSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = KeychainSwift.modulemap; path = ../../Headers/Public/KeychainSwift/KeychainSwift.modulemap; sourceTree = "<group>"; };
+		4342A06AF948707111CB03D399C138CC /* KeychainSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KeychainSwift-dummy.m"; sourceTree = "<group>"; };
+		4DC1C9E9BE9CDE98B0E04357E4D89853 /* KeychainSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeychainSwift.xcconfig; sourceTree = "<group>"; };
+		526D6BF9418B09F29980D0E160393456 /* KeychainSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "KeychainSwift-umbrella.h"; path = "../../Headers/Public/KeychainSwift/KeychainSwift-umbrella.h"; sourceTree = "<group>"; };
+		6A3552B02C8E739F6C137E0EEC3AA3E3 /* Pods-KeyChainUserPresence-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KeyChainUserPresence-frameworks.sh"; sourceTree = "<group>"; };
+		6AB5A70A4BEB28B1BF962F626CD4A231 /* KeychainSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainSwift-prefix.pch"; sourceTree = "<group>"; };
+		7AD3A951869ED076297861E61D330DBC /* KeychainSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainSwift.swift; path = Sources/KeychainSwift.swift; sourceTree = "<group>"; };
+		7B559773BA9AF738159FA70C3EB2F6A3 /* Pods-KeyChainUserPresence-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KeyChainUserPresence-acknowledgements.markdown"; sourceTree = "<group>"; };
+		81C233767BD7A0C001CE7116D1293BA2 /* libKeychainSwift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libKeychainSwift.a; path = libKeychainSwift.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		842CF55CD9A24F1A1046C197A7E60875 /* Pods-KeyChainUserPresence-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KeyChainUserPresence-dummy.m"; sourceTree = "<group>"; };
+		972F8DE923CB17108F3D321EE6DE9C49 /* Pods-KeyChainUserPresence-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KeyChainUserPresence-acknowledgements.plist"; sourceTree = "<group>"; };
+		A2FC8C611CFDBC525F3B061331EAB622 /* Pods-KeyChainUserPresence-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KeyChainUserPresence-umbrella.h"; sourceTree = "<group>"; };
+		A764E5F1D58FE63D529AFF75B8EE2BC6 /* Pods-KeyChainUserPresence.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeyChainUserPresence.debug.xcconfig"; sourceTree = "<group>"; };
+		D6B956E9E933BA029E45D76103AAB135 /* Pods-KeyChainUserPresence-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KeyChainUserPresence-resources.sh"; sourceTree = "<group>"; };
+		DF40606FCDC8BC95A92D4F261F1DAC46 /* Pods-KeyChainUserPresence.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KeyChainUserPresence.modulemap"; sourceTree = "<group>"; };
+		DFE8C115108886D619A5245F6E09C908 /* Pods-KeyChainUserPresence.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeyChainUserPresence.release.xcconfig"; sourceTree = "<group>"; };
+		F25AFB94937BBD2B85CE3D19C55DAE9C /* TegKeychainConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TegKeychainConstants.swift; path = Sources/TegKeychainConstants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F71E7042400EDDD7DFD7A327A6681A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0D0BAD00BCE19B280489BEC87230300 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0019C27A2214448F0D0340C8D6DBBE1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81C233767BD7A0C001CE7116D1293BA2 /* libKeychainSwift.a */,
+				1010C4CD05E057D8C5A9D28062E85106 /* libPods-KeyChainUserPresence.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A8616B6E0B0CFEC4C1FE40BAF38C6D0 /* Pods-KeyChainUserPresence */ = {
+			isa = PBXGroup;
+			children = (
+				DF40606FCDC8BC95A92D4F261F1DAC46 /* Pods-KeyChainUserPresence.modulemap */,
+				7B559773BA9AF738159FA70C3EB2F6A3 /* Pods-KeyChainUserPresence-acknowledgements.markdown */,
+				972F8DE923CB17108F3D321EE6DE9C49 /* Pods-KeyChainUserPresence-acknowledgements.plist */,
+				842CF55CD9A24F1A1046C197A7E60875 /* Pods-KeyChainUserPresence-dummy.m */,
+				6A3552B02C8E739F6C137E0EEC3AA3E3 /* Pods-KeyChainUserPresence-frameworks.sh */,
+				D6B956E9E933BA029E45D76103AAB135 /* Pods-KeyChainUserPresence-resources.sh */,
+				A2FC8C611CFDBC525F3B061331EAB622 /* Pods-KeyChainUserPresence-umbrella.h */,
+				A764E5F1D58FE63D529AFF75B8EE2BC6 /* Pods-KeyChainUserPresence.debug.xcconfig */,
+				DFE8C115108886D619A5245F6E09C908 /* Pods-KeyChainUserPresence.release.xcconfig */,
+			);
+			name = "Pods-KeyChainUserPresence";
+			path = "Target Support Files/Pods-KeyChainUserPresence";
+			sourceTree = "<group>";
+		};
+		6806E8BADB1DDA93DCDA66C5C6194A5E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A8616B6E0B0CFEC4C1FE40BAF38C6D0 /* Pods-KeyChainUserPresence */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6914C866BAE31BFBA9841BEDCD93C6A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FAA89D4311334C6DEB404D56FD1A6C1F /* KeychainSwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C0BF46C431704D10095BB207C64C660C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				40FF95DE14EEA4AE2E2174B02CC3A234 /* KeychainSwift.modulemap */,
+				4DC1C9E9BE9CDE98B0E04357E4D89853 /* KeychainSwift.xcconfig */,
+				4342A06AF948707111CB03D399C138CC /* KeychainSwift-dummy.m */,
+				6AB5A70A4BEB28B1BF962F626CD4A231 /* KeychainSwift-prefix.pch */,
+				526D6BF9418B09F29980D0E160393456 /* KeychainSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KeychainSwift";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				24390EFD555DD124430DFF9724065945 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				6914C866BAE31BFBA9841BEDCD93C6A6 /* Pods */,
+				0019C27A2214448F0D0340C8D6DBBE1F /* Products */,
+				6806E8BADB1DDA93DCDA66C5C6194A5E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAA89D4311334C6DEB404D56FD1A6C1F /* KeychainSwift */ = {
+			isa = PBXGroup;
+			children = (
+				7AD3A951869ED076297861E61D330DBC /* KeychainSwift.swift */,
+				3BAC07B46594C167986B13F954F38D9D /* KeychainSwiftAccessOptions.swift */,
+				F25AFB94937BBD2B85CE3D19C55DAE9C /* TegKeychainConstants.swift */,
+				C0BF46C431704D10095BB207C64C660C /* Support Files */,
+			);
+			name = KeychainSwift;
+			path = KeychainSwift;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C49553428918B46A90B8D04735D8B2D6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD3E414B1438439F4E530BC60701C071 /* KeychainSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF13BD7A4DA832A5F91217EEB0F884F9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FFC5B3DB755387D0D871DFEF9F78E83 /* Pods-KeyChainUserPresence-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		29D71D6356EEC99D7630D2241D3E8A82 /* KeychainSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85B9C25B9015658816619907D692FD50 /* Build configuration list for PBXNativeTarget "KeychainSwift" */;
+			buildPhases = (
+				C49553428918B46A90B8D04735D8B2D6 /* Headers */,
+				6330AF98B96AC382BAC5F3F917773473 /* Sources */,
+				6F71E7042400EDDD7DFD7A327A6681A3 /* Frameworks */,
+				01FEB96FE8371FCCDB84DC7D57A2BB38 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeychainSwift;
+			productName = KeychainSwift;
+			productReference = 81C233767BD7A0C001CE7116D1293BA2 /* libKeychainSwift.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		ADBF2C8C64ED602B75FE698B3B1682A6 /* Pods-KeyChainUserPresence */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B25D3F72E0E7982A0618C8540A443D2D /* Build configuration list for PBXNativeTarget "Pods-KeyChainUserPresence" */;
+			buildPhases = (
+				DF13BD7A4DA832A5F91217EEB0F884F9 /* Headers */,
+				527580B4AAEA5BC91A95DE5BC368E76B /* Sources */,
+				B0D0BAD00BCE19B280489BEC87230300 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E7F014CE4D665D958603257ECD4668C /* PBXTargetDependency */,
+			);
+			name = "Pods-KeyChainUserPresence";
+			productName = "Pods-KeyChainUserPresence";
+			productReference = 1010C4CD05E057D8C5A9D28062E85106 /* libPods-KeyChainUserPresence.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 0019C27A2214448F0D0340C8D6DBBE1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29D71D6356EEC99D7630D2241D3E8A82 /* KeychainSwift */,
+				ADBF2C8C64ED602B75FE698B3B1682A6 /* Pods-KeyChainUserPresence */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01FEB96FE8371FCCDB84DC7D57A2BB38 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/KeychainSwift/KeychainSwift.modulemap",
+				"${PODS_ROOT}/Headers/Public/KeychainSwift/KeychainSwift-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/KeychainSwift-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/KeychainSwift/KeychainSwift.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/KeychainSwift/KeychainSwift-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		527580B4AAEA5BC91A95DE5BC368E76B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				655244C9C861AB7B9AB24B9DBBC0ECA2 /* Pods-KeyChainUserPresence-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6330AF98B96AC382BAC5F3F917773473 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40563B24A09D6EFECB111DD70444D4BB /* KeychainSwift-dummy.m in Sources */,
+				8E4CFEFBF7066B4047946C16F914ACF6 /* KeychainSwift.swift in Sources */,
+				06E5B577D703724BFE19F985BDB3EA7F /* KeychainSwiftAccessOptions.swift in Sources */,
+				67320BBFA13531C26910011C0E87A01F /* TegKeychainConstants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E7F014CE4D665D958603257ECD4668C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KeychainSwift;
+			target = 29D71D6356EEC99D7630D2241D3E8A82 /* KeychainSwift */;
+			targetProxy = A173FEB5ED0F44BA8A3A2E2AB34BAC25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		068A219F9C384FD572D523EEE317D0C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		2D26A22055F73C4D92300C781871FA20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DC1C9E9BE9CDE98B0E04357E4D89853 /* KeychainSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/KeychainSwift/KeychainSwift-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/KeychainSwift/KeychainSwift.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = KeychainSwift;
+				PRODUCT_NAME = KeychainSwift;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F7109A59A00D3A96A79BC3AFDE2BB48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DC1C9E9BE9CDE98B0E04357E4D89853 /* KeychainSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/KeychainSwift/KeychainSwift-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/KeychainSwift/KeychainSwift.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = KeychainSwift;
+				PRODUCT_NAME = KeychainSwift;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86227BAA81145EE6248B121B7B31DB45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A764E5F1D58FE63D529AFF75B8EE2BC6 /* Pods-KeyChainUserPresence.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KeyChainUserPresence/Pods-KeyChainUserPresence.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E111D45F59FF50F1EC3932F9D0EF11DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFE8C115108886D619A5245F6E09C908 /* Pods-KeyChainUserPresence.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KeyChainUserPresence/Pods-KeyChainUserPresence.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E29B0B57C53FF8C9953CE2983686A7F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E29B0B57C53FF8C9953CE2983686A7F9 /* Debug */,
+				068A219F9C384FD572D523EEE317D0C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85B9C25B9015658816619907D692FD50 /* Build configuration list for PBXNativeTarget "KeychainSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D26A22055F73C4D92300C781871FA20 /* Debug */,
+				6F7109A59A00D3A96A79BC3AFDE2BB48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B25D3F72E0E7982A0618C8540A443D2D /* Build configuration list for PBXNativeTarget "Pods-KeyChainUserPresence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86227BAA81145EE6248B121B7B31DB45 /* Debug */,
+				E111D45F59FF50F1EC3932F9D0EF11DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
